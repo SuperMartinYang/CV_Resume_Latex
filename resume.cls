@@ -128,9 +128,9 @@
 %%%%%%%%%%%%%%%%%   for CV   %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Proper alignment
-\usepackage[originalcommands]{ragged2e}%
-\newcommand*{\cvcomputer}[4]{%
-  \cvdoubleitem{#1}{\small\raggedright#2}{#3}{\small\raggedright#4}}
+\newcommand{\cvcomputer}[4]{
+  \cvdoubleitem{#1}{\small\raggedright#2}{#3}{\small\raggedright#4}
+}
 
 % Not all fonts have an sl shape
 \newcommand*{\cventry}[6]{%
